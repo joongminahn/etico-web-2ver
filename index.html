@@ -1,0 +1,410 @@
+<!-- ==============etico website=============== 
+Project Name: etico
+Team Members: Jungmin Ahn, Colin Cheong, Lim Ing
+Web Developing Start: 1st May 2022
+============================================-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>etico</title>
+  <!--Open Graph Property-->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="etico" />
+<meta property="og:title" content="etico" />
+<meta property="og:description" content="etico: Eat better, to save the future." />
+<meta property="og:image" content="/assets/img/etico_opengraph_seo" />
+<meta property="og:url" content="etico-web.netlify.app" />
+<!-- Twitter Card Property -->
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="etico" />
+<meta property="twitter:title" content="etico" />
+<meta property="twitter:description" content="etico: Eat better, to save the future." />
+<meta property="twitter:image" content="/assets/img/etico_opengraph_seo.png" />
+<meta property="twitter:url" content="etico-web.netlify.app" />
+
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">  
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+ 
+  <!-- Lodash.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">    
+      <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a href="index.html">
+      <img src="./assets/img/etico-logo.png" alt="etico-logo" class="etico-logo">  
+      </a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      
+      <nav id="navbar" class="navbar">
+        <ul>          
+          <li><a class="nav-link scrollto" href="#about">Products</a></li>
+          <li><a class="nav-link scrollto" href="#community">Community</a></li>
+          <li><a class="nav-link scrollto" href="#Impacts">Impacts</a></li>          
+          <li class="dropdown"><a href="#"><span>Download</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#"><img src="./assets/img/logo/apple_logo.png" class="a-icon apple"><span class="label-a">Apple Store</span></a></li>              
+              <li><a href="#"><img src="./assets/img/logo/google_play_logo.png" class="g-icon google"><span class="label-g">Google Play</span></a></li>              
+            </ul>          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+     
+    </div>
+    <!-- ============header > badges ============= -->
+  <div class="badges">
+    <div class="badge">
+      <img src="./assets/img/badge1.jpg" alt="Badge" class="img-one" />
+    </div>
+    <div class="badge">
+      <img src="./assets/img/badge2.jpg" alt="Badge" class="img-two" />
+    </div>
+  </div>
+
+  </header><!-- End Header -->
+
+  <!-- ======= landing Section ======= -->
+  <section id="landing" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row row--landing">
+        <div class="row__left col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos-lock="fade-up" data-aos-delay="200">        
+        <div class="title-wrapper">
+          <h1 class="fade-in">Eat better to save the future.</h1>
+          <div class="fade-in-wrapper fade-in">
+          <h2>Chow down on the dishes you love best, all while changing the future of dining.</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">            
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+            <a href="#about" class="btn-get-started scrollto">Join etico</a>
+            <a href="#about" class="second btn-get-started scrollto">Learn More</a>
+          </div>
+        </div>
+        </div>    
+       </div>
+        <div class="row__right col-lg-6 order-1 order-lg-2 landing-img" data-aos-lock="zoom-in" data-aos-delay="200">         
+          <img src="assets/img/img-box.png" class="m_1 img-fluid animated fade-in" alt="">        
+          <img src="assets/img/img-box.png" class="m_2 img-fluid animated fade-in" alt="">            
+          <!-- <img src="assets/img/mock_up_1.png" class="m_1 img-fluid animated" alt="">          
+          <img src="assets/img/mock_up_2.png" class="m_2 img-fluid animated" alt="">            -->
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End landing -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Food is Life</h2>          
+        </div>
+
+        <div class="row content">
+          <div class="content_center">
+            <p class="p__left">
+              But right now, the environmental impacts of our food industry is destroying the planet.
+            </p>            
+            <a href="#" class="btn-learn-more btn-two">Learn More</a>
+          </div>          
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= etico-feature Section-1 ======= -->
+    <section id="etico-feature" class="etico-feature section-bg">     
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">          
+            <div class="content">
+              <h3><strong>Explore the world of dining, your way.</strong></h3>
+              <p>
+                Find new restaurants, dishes, and cuisines near you, based on your dining preferences and dietary needs.
+              </p>
+            </div>         
+      
+          <div class="img-etico row__right col-lg-6 order-1 order-lg-2 landing-img" data-aos="zoom-in" data-aos-delay="200">         
+            <img src="assets/img/img-box.png" class="m_3 img-fluid animated" alt="">                     
+          </div>          
+          </div>          
+          </div>          
+                
+      </div>
+    </div>
+    </section><!-- End etico-feature Section -->
+    <!-- ======= etico-feature Section-2 ======= -->
+    <section id="etico-feature" class="etico-feature etico-two section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row row-two">          
+            <div class="content">
+              <h3><strong>Know your meals, ingredients, and sources.</strong></h3>
+              <p>
+                Unveil ingredients, sources, and sustainable efforts behind the food you eat with the etico menu and app. 
+              </p>
+            </div>
+                   
+          <div class="img-etico img-etico-two landing-img" data-aos="zoom-in" data-aos-delay="200">         
+            <img src="assets/img/img-box.png" class="m_4 img-fluid animated" alt="">                      
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </section><!-- End etico-feature Section -->
+    
+    <!-- ======= etico-feature Section-3 ======= -->
+    <section id="etico-feature" class="etico-feature section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">          
+            <div class="content">
+              <h3><strong>Been there, verified that.</strong></h3>
+              <p>
+                etico ensures the credibility of sourcing and tracking information by storing data on our blockchain database.
+                <br/><br/>Verify the validity of etico certified sourcing through the unique IDs.
+              </p>
+            </div>               
+          <div class="img-etico row__right col-lg-6 order-1 order-lg-2 landing-img" data-aos="zoom-in" data-aos-delay="200">         
+            <img src="assets/img/img-box.png" class="m_3 img-fluid animated" alt="">                     
+            </div>
+        </div>
+        </div>
+
+      </div>
+    </section><!-- End etico-feature Section -->
+       <!-- ======= About Us Section ======= -->
+       <section id="community" class="about">
+        <div class="container" data-aos="fade-up">  
+          <div class="section-title">
+            <h2>Knowing our food gives us power.</h2>            
+          </div>
+  
+          <div class="row content">
+            <div class="content_center">
+              <p class="p__left p-two">
+                By creating a transparent view into our food, etico gives consumers the power to shape the dining through social change.
+              </p>            
+              <a href="#" class="btn-learn-more btn-two">Learn More</a>
+            </div>          
+          </div>
+  
+        </div>
+      </section><!-- End About Us Section -->
+     <!-- ======= etico-feature Section-4 ======= -->
+    <section id="etico-feature" class="etico-feature etico-two section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row row-two">          
+            <div class="content">
+              <h3><strong>Empower the restaurants you love on their journey.</strong></h3>
+              <p>
+                Catalyse the sustainable movement by donating to or patronising restaurants, helping them achieve their goals.
+              </p>
+            </div>
+                   
+          <div class="img-etico img-etico-two landing-img" data-aos="zoom-in" data-aos-delay="200">         
+            <img src="assets/img/img-box.png" class="m_4 img-fluid animated" alt="">                      
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </section><!-- End etico-feature Section -->    
+       <!-- ======= etico-feature Section-3 ======= -->
+    <section id="etico-feature" class="etico-feature section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">          
+            <div class="content">
+              <h3><strong>Grow with the etico community.</strong></h3>
+              <p>
+                Learn about sustainable efforts in the food industry, and follow the transitions that restaurants are embarking on.
+              </p>
+            </div>               
+          <div class="img-etico row__right col-lg-6 order-1 order-lg-2 landing-img" data-aos="zoom-in" data-aos-delay="200">         
+            <img src="assets/img/img-box.png" class="m_3 img-fluid animated" alt="">                     
+            </div>
+        </div>
+        </div>
+
+      </div>
+    </section><!-- End etico-feature Section -->
+    <!-- ======= Impacts Section ======= -->
+    <section id="Impacts" class="Impacts section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Our Impacts</h2>
+          <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. </p>
+        </div>
+
+        <div class="row row-Impacts">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="record-box">
+              <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+              <h4>Nulla Lorem</h4>
+              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation </p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="record-box">
+              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+              <h4>Nulla Lorem</h4>
+              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="record-box">
+              <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+              <h4>Nulla Lorem</h4>
+              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="record-box">
+              <!-- <div class="icon"><i class="bx bx-layer"></i></div> -->
+              <h4>Nulla Lorem</h4>
+              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Impacts Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Change the future of how we eat.</h3>
+            <p> Start dining on your terms, for our planet and future.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Join etico</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+    
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">   
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>etico</h3>
+            <p>
+              516 Drayton St, 
+              <br>Savannah, GA
+              <br> 31401
+              <br><br>
+              <strong>Phone:</strong> +1 1234 56789 10<br>
+              <strong>Email:</strong> etico@eatbetter.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">etico App</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">etico Menu</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Customer</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Owner</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Social Networks</h4>
+            <p class="osn-p">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3">
+              <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+              <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>etico</span></strong>. All Rights Reserved
+      </div>      
+    </div>
+  </footer><!-- End Footer -->
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script> 
+ 
+  <!-- Main JS File -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>     
+  <script src="assets/js/main.js"></script> 
+</body>
+
+</html>
