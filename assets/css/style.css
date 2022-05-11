@@ -415,8 +415,7 @@ header > .badges >  .badge > .img-two {
     height: 205.71px;
     /* background-color: sandybrown;              */
     order:-1;    
-   }  
-
+   }
 #landing h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -442,8 +441,14 @@ header > .badges >  .badge > .img-two {
   color: #111;  
   border: 1.2px solid;  
 }
-#landing .second {
-margin-left: 20px;  
+#landing .d_logo {
+  width: 160px;
+  height: 56px;
+}
+#landing img:first-child {
+  width: 160px;
+  height: 56px;
+  margin-right: 12px;
 }
 #landing .btn-get-started:hover {
   background: #3D808E;
@@ -468,7 +473,7 @@ margin-left: 20px;
   color: #47b2e4;
 }
 #landing .animated {
-  /* animation: up-down 2s ease-in-out infinite alternate-reverse both; */
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 .fade-in {
   opacity: 0;
@@ -533,6 +538,56 @@ margin-left: 20px;
     transform: translateY(-10px);
   }
 }
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+.about .content ul li + li {
+  margin-top: 10px;
+}
+.about .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #47b2e4;
+  line-height: 1;
+}
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+.about .content .btn-learn-more {  
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #47b2e4;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #47b2e4;
+}
+.about .content .btn-learn-more:hover {
+  background: #47b2e4;
+  color: #fff;
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -541,9 +596,59 @@ section {
   overflow: hidden;
   /* background-color:#848484; */
 }
-.section-bg {
-  background-color: #f3f5fa;
+.section-bg-one {
+  /* background-image: url('/assets/img/bg--section.png'); */
+  /* background-size: 100% 100%; */
+  /* background-color: #f3f5fa; */
+  /* background-color: #222 !important;   */
+  background:linear-gradient( to right, #F5F2F1 50%, #FF634D 50% )
 }
+.etico-two {
+  /* background-image: url('/assets/img/bg--section.png'); */
+  /* background-size: 100% 100%; */
+  /* background-color: #f3f5fa; */
+  /* background-color: #222 !important;   */
+  background-color:#394049 !important;
+}
+.section-bg-two {
+  /* background-image: url('/assets/img/bg--section.png'); */
+  /* background-size: 100% 100%; */
+  /* background-color: #f3f5fa; */
+  /* background-color: #222 !important;   */
+  background-color:#394049 !important;
+}
+.section-bg-three {
+  /* background-image: url('/assets/img/bg--section.png'); */
+  /* background-size: 100% 100%; */
+  /* background-color: #f3f5fa; */
+  /* background-color: #222 !important;   */
+  background-color:#f5f2f1 !important;
+  padding-bottom: 0px;
+}
+.section-bg-three > .container-fluid> .row {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color:#59B378;   */
+  /* position: relative; */
+}
+.section-bg-three > .container-fluid> .row > .img-etico {
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  padding-top: 180px;
+  /* position: absolute; */
+  bottom: 0px;
+}
+.section-bg-three > .container-fluid> .row > .content {
+  /* background-color: salmon; */
+  padding: 0px;
+ }
+ .section-bg-three > .container-fluid> .row > .content > h3,
+ .section-bg-three > .container-fluid> .row > .content > p {
+   text-align: center;
+  }
 .section-title {
   text-align: center;
   /* transform:translateY(100%); */
@@ -610,62 +715,15 @@ section {
   color: #222;  
   border: 1.2px solid #222;  
  }
+ .about-two {
+   padding-top: 240px;
+ }
  /* #about==>.about 4개 */
-/*--------------------------------------------------------------
-# About Us
---------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-}
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-.about .content ul li {
-  padding-left: 28px;
-  position: relative;
-}
-.about .content ul li + li {
-  margin-top: 10px;
-}
-.about .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 20px;
-  color: #47b2e4;
-  line-height: 1;
-}
-.about .content p:last-child {
-  margin-bottom: 0;
-}
-.about .content .btn-learn-more {  
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 4px;
-  transition: 0.3s;
-  line-height: 1;
-  color: #47b2e4;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  margin-top: 6px;
-  border: 2px solid #47b2e4;
-}
-.about .content .btn-learn-more:hover {
-  background: #47b2e4;
-  color: #fff;
-  text-decoration: none;
-}
 /*--------------------------------------------------------------
 # etico_feature
 --------------------------------------------------------------*/
 .etico-feature {
-  background-color:#D9F2E2;
-     
+  background-color:#D9F2E2;     
 }
 .etico-feature .etico-feature__left {
   /* width: 50%;   */
@@ -705,13 +763,39 @@ section {
   width: 310px;
   height: 462.18px;   
   /* background-color:#18d26e;     */
-  }  
-  .etico-feature img:last-child {    
+  }
+.etico-feature .img-etico-three {
+  width: auto;
+  /* background-color:#73c5eb; */
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-top: 180px;
+ }
+.etico-feature .img-etico-three .m_left {
+    width: 310px;
+    height: 330px;   
+    /* background-color:#18d26e;     */
+    margin-right: 40px;
+    }
+.etico-feature .img-etico-three .m_3 {
+     width: 310px;
+     height: 462.18px;   
+     order: 1;    
+     margin-right: 40px;
+      /* background-color:#18d26e;     */
+    }     
+ .etico-feature .img-etico-three .m_right {
+    width: 310px;
+    height: 280px;
+    order: 2;
+ }   
+  /* .etico-feature img:last-child {    
    width: 269px;
    height: 205.71px;
-   /* background-color: sandybrown;*/
+   
    order:-1;    
-  }
+  } */
   /*--------------------------------------------------------------
 # etico_feature_two
 --------------------------------------------------------------*/
@@ -806,6 +890,61 @@ section {
 /* .Impacts .record-box:hover h4 a {
   color: #47b2e4;
 } */
+/*--------------------------------------------------------------
+# social_network
+--------------------------------------------------------------*/
+.social_network .container {
+  width: 85%;  
+  /* margin-right: 50%;
+  transform: translateX(25%); */
+  /* background-color:#3D808E;     */
+}
+
+.social_network > .container > .social_network-container {    
+  display: flex;
+  /* flex-wrap: wrap; */  
+  /* align-items: center; */
+  /* background-color:wheat;   */
+  text-align: center;
+  /* justify-content: center; */
+ }
+ .social_network-item-wrap {
+   width: 82.5%;
+   /* background-color:yellowgreen; */
+   display: flex;
+   flex-wrap: wrap;      
+   margin-top: 20px;
+   margin-left: 50%;   
+   transform: translateX(-50%);
+  }
+  .social_network > .container > .social_network-container > .social_network-item-wrap > .social_network-item {    
+  padding: 20px 0px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 
+ /* for tablet responsive viewpoint */
+ /* .social_network > .container > .social_network-container > .social_network-item-wrap > .social_network-item {  
+  width: 380px;  
+  padding: 20px 0px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+ } */
+
+.social_network .social_network-item .social_network-img {  
+  box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);    
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+  width: 340px;
+  height: 400px;  
+  padding: 20px;  
+}
+#social_network .container .section-title p {
+  width: 60%;  
+  margin-left: 50%;
+  transform: translateX(-50%);
+ }
+
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
