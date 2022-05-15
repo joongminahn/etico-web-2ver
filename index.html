@@ -56,7 +56,6 @@ Web Developing Start: 1st May 2022
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </head>
-
 <body>
 
   <!-- ======= Header ======= -->
@@ -69,32 +68,25 @@ Web Developing Start: 1st May 2022
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       
       <nav id="navbar" class="navbar">
-        <ul>          
+        
+        <ul class="navbar-container">          
+        <div class="navbar-container-wrap">
           <li><a class="nav-link scrollto" href="#about">Products</a></li>
           <li><a class="nav-link scrollto" href="#community">Community</a></li>
-          <li><a class="nav-link scrollto" href="#Impacts">Impacts</a></li>          
-          <li class="dropdown"><a href="#"><span>Download</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="#Impacts">Impacts</a></li>
+        </div>          
+          <li class="dropdown getstarted"><a href="#"><span>Utilities</span> <i class="bi bi-chevron-down"></i></a>        
             <ul>
               <li><a href="#"><img src="./assets/img/logo/apple_logo.png" class="a-icon apple"><span class="label-a">Apple Store</span></a></li>              
               <li><a href="#"><img src="./assets/img/logo/google_play_logo.png" class="g-icon google"><span class="label-g">Google Play</span></a></li>              
-            </ul>          
+            </ul>                    
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
      
     </div>
-    <!-- ============header > badges ============= -->
-  <div class="badges">
-    <div class="badge">
-      <img src="./assets/img/badge1.jpg" alt="Badge" class="img-one" />
-    </div>
-    <div class="badge">
-      <img src="./assets/img/badge2.jpg" alt="Badge" class="img-two" />
-    </div>
-  </div>
-
+       
   </header><!-- End Header -->
-
   <!-- ======= landing Section ======= -->
   <section id="landing" class="d-flex align-items-center">
 
@@ -105,7 +97,7 @@ Web Developing Start: 1st May 2022
           <h1 class="fade-in">Eat better to save the future.</h1>
           <div class="fade-in-wrapper fade-in">
           <h2>Chow down on the dishes you love best, all while changing the future of dining.</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">            
+          <div class="logo-wrapper d-flex justify-content-center justify-content-lg-start">            
             <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
             <img src="./assets/img/logo/app_store.png" alt="app_store" class="d_logo">
             <img src="./assets/img/logo/g_play.png" alt="google_play" class="d_logo">
@@ -115,7 +107,7 @@ Web Developing Start: 1st May 2022
         </div>
         </div>    
        </div>
-        <div class="row__right col-lg-6 order-1 order-lg-2 landing-img" data-aos-lock="zoom-in" data-aos-delay="200">         
+        <div class="row__right row__right-landing col-lg-6 order-1 order-lg-2 landing-img" data-aos-lock="zoom-in" data-aos-delay="200">         
           <img src="assets/img/img-box.png" class="m_1 img-fluid animated fade-in" alt="">
           <img src="assets/img/img-box.png" class="m_2 img-fluid fade-in" alt="">                  
           <!-- <img src="assets/img/mock_up_1.png" class="m_1 img-fluid animated" alt="">          
@@ -131,11 +123,9 @@ Web Developing Start: 1st May 2022
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
-
         <div class="section-title">
           <h2>Food is Life</h2>          
         </div>
-
         <div class="row content">
           <div class="content_center">
             <p class="p__left">
@@ -151,19 +141,19 @@ Web Developing Start: 1st May 2022
     <!-- ======= etico-feature Section-1 ======= -->
     <section id="etico-feature" class="etico-feature section-bg section-bg-one">     
       <div class="container-fluid" data-aos="fade-up">
-        <div class="row">          
+        <div class="row row-feature">          
             <div class="content">
               <h3><strong>Explore the world of dining, your way.</strong></h3>
               <p>
                 Find new restaurants, dishes, and cuisines near you, based on your dining preferences and dietary needs.
               </p>
-            </div>         
-      
+            </div>
+                 
           <div class="img-etico row__right col-lg-6 order-1 order-lg-2 landing-img" data-aos="zoom-in" data-aos-delay="200">         
             <img src="assets/img/img-box.png" class="m_3 img-fluid animated" alt="">                     
           </div>          
-          </div>          
-          </div>          
+        </div>          
+      </div>          
                 
       </div>
     </div>
@@ -172,16 +162,15 @@ Web Developing Start: 1st May 2022
     <section id="etico-feature" class="etico-feature etico-two section-bg section-bg-two">
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row row-two">          
+        <div class="row row-two row-feature">          
             <div class="content">
               <h3><strong>Know your meals, ingredients, and sources.</strong></h3>
               <p>
                 Unveil ingredients, sources, and sustainable efforts behind the food you eat with the etico menu and app. 
               </p>
-            </div>
-                   
+            </div>                   
           <div class="img-etico img-etico-two landing-img" data-aos="zoom-in" data-aos-delay="200">         
-            <img src="assets/img/img-box.png" class="m_4 img-fluid animated" alt="">                      
+              <img src="assets/img/img-box.png" class="m_4 img-fluid animated" alt="">                      
           </div>
         </div>
         </div>
@@ -230,10 +219,10 @@ Web Developing Start: 1st May 2022
         </div>
       </section><!-- End About Us Section -->
      <!-- ======= etico-feature Section-4 ======= -->
-    <section id="etico-feature" class="etico-feature etico-two section-bg">
+    <section id="etico-feature" class="etico-feature etico-two section-bg section-bg-four">
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row row-two">          
+        <div class="row row-two row-feature">          
             <div class="content">
               <h3><strong>Empower the restaurants you love on their journey.</strong></h3>
               <p>
@@ -250,10 +239,10 @@ Web Developing Start: 1st May 2022
       </div>
     </section><!-- End etico-feature Section -->    
        <!-- ======= etico-feature Section-3 ======= -->
-    <section id="etico-feature" class="etico-feature section-bg">
+    <section id="etico-feature" class="etico-feature section-bg section-bg-five">
       <div class="container-fluid" data-aos="fade-up">
 
-        <div class="row">          
+        <div class="row row-feature">          
             <div class="content">
               <h3><strong>Grow with the etico community.</strong></h3>
               <p>
@@ -265,106 +254,108 @@ Web Developing Start: 1st May 2022
             </div>
         </div>
         </div>
-
       </div>
     </section><!-- End etico-feature Section -->
-    <!-- ======= Impacts Section ======= -->
-    <section id="Impacts" class="Impacts section-bg">
+     <!-- ======= community Section ======= -->
+     <section id="sns" class="sns section-bg">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Our Impacts</h2>
-          <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. </p>
+          <h2 style="color: #F4F2F1;">etico World</h2>
+          <p>etico World is a community where etico users can be active and provides etico Movement, diary, and restaurant rating services.</p>
         </div>
 
-        <div class="row row-Impacts">
+        <div class="row row-sns">
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="record-box">
               <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
-              <h4>Nulla Lorem</h4>
-              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation </p>
+            <div class="record-box-wrapper box-one">
+              <h4>Join the etico Movement!</h4>
+              <p>Join the change in food culture!</p>
+            </div>
+              <img src="./assets/img/etico_world/Etico World.png" alt=""/>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="record-box">
               <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-              <h4>Nulla Lorem</h4>
-              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation</p>
+            <div class="record-box-wrapper box-one">
+              <h4 class="free_to_communicate">Free to communicate!</h4>
+              <p>What are your thoughts on someone's etico Movement?</p>
+            </div>
+            <img src="./assets/img/etico_world/Fire Thai Cuisine Movement.png" alt=""/>
             </div>
           </div>
 
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="record-box">
               <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
-              <h4>Nulla Lorem</h4>
-              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation</p>
+              <div class="record-box-wrapper box-one">
+              <h4>Write your own <br>etico diary</h4>
+              <p>Share my etico life with others!</p>
+            </div>
+            <img src="./assets/img/etico_world/diary.png" alt=""/>
             </div>
           </div>
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="record-box">
               <!-- <div class="icon"><i class="bx bx-layer"></i></div> -->
-              <h4>Nulla Lorem</h4>
-              <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation</p>
+              <div class="record-box-wrapper">
+              <h4 class="h4_last">Shall we rate the restaurant?</h4>
+              <p>A win-win for both the restaurant and users due to your rating!</p>
+            </div>
+            <img src="./assets/img/etico_world/rating.png" alt=""/>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Impacts Section -->
-      <!-- ======= social_network Section ======= -->
-      <section id="social_network" class="social_network">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>Community</h2>
-            <p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum.</p>
-          </div>         
-  
-          <div class="row social_network-container" data-aos="fade-up" data-aos-delay="200">
-  <div class="social_network-item-wrap">
-            <div class="col-lg-4 col-md-6 social_network-item filter-app">
-              <div class="social_network-img"></div>      
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-web">
-              <div class="social_network-img"></div>           
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-app">
-              <div class="social_network-img"></div>           
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-card">
-              <div class="social_network-img"></div>           
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-web">
-              <div class="social_network-img"></div>             
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-app">
-              <div class="social_network-img"></div>              
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-card">
-              <div class="social_network-img"></div>              
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item filter-card">
-              <div class="social_network-img"></div>               
-            </div>
-  
-            <div class="col-lg-4 col-md-6 social_network-item">
-              <div class="social_network-img"></div>              
-            </div>
-
-          </div>
-          </div>
-  
+    </section><!-- End Community Section -->
+    <!-- ======= Impacts Section ======= -->
+    <section id="Impacts" class="Impacts section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">          
+          <h2>Our Impacts</h2>
+          <p>etico is making sustainable dining a norm through transparency, enabling social change.</p>          
         </div>
-      </section><!-- End social_network Section -->
 
+        <div class="row row-Impacts">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="record-box">
+              <img src="./assets/img/impacts/money.png" alt="">              
+              <p>Average restaurant sales increase with Etico service</p>
+              <h4>40% UP</h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="record-box">
+              <img src="./assets/img/impacts/reduce_carbon.png" alt="">              
+              <p>The amount of carbon dioxide in the area has decreased.</p>
+              <h4>20% Down</h4>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="record-box">
+              <img src="./assets/img/impacts/like_etico.png" alt="">              
+              <p>More and more people are interested in sustainable dining</p>
+              <h4>455,200 subscribers</h4>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="record-box">
+              <img src="./assets/img/impacts/ethical_ingredient.png" alt="">              
+              <p>More and more companies are producing food ingredients in an ethical way</p>
+              <h4>Ethical food production</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Impacts Section -->   
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
@@ -375,7 +366,7 @@ Web Developing Start: 1st May 2022
             <p> Start dining on your terms, for our planet and future.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Join etico</a>
+            <a class="cta-btn align-middle" href="javascript:void()">Join etico</a>
           </div>
         </div>
 
