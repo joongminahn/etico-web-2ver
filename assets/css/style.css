@@ -2021,8 +2021,8 @@ section {
 }
 
 }
-
-@media (max-width: 375px) {
+/* @media (max-width: 375px) { */
+@media (max-width: 414px) {
   #landing {    
     height: 120vh !important;  
     padding-top: 10%;
