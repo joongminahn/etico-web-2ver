@@ -2078,7 +2078,7 @@ section {
     margin: 0px 0px;
   }
   #landing {    
-    height: 100vh !important;  
+    height: 110vh !important;  
     padding-top: 50%;
     padding-bottom: 10%;  
   }
@@ -2119,6 +2119,9 @@ section {
   
   #about,#community {
     padding: 30% 0px;
+  }
+  #about {
+    padding: 40% 0px;
   } 
   .section-title h2 {
     font-size: 28px !important;
