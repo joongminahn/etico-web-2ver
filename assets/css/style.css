@@ -6,8 +6,12 @@ Web Developing Start: 1st May 2022
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+button, html [type="button"] {
+  -webkit-appearance: none;   
+}
 html {
   overflow-x: hidden;
+  -webkit-text-size-adjust: none;
 }
 body {  
   font-family: 'Work Sans', sans-serif;
