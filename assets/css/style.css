@@ -50,7 +50,7 @@ p {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #59B378;
+  border: 6px solid #fff;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
