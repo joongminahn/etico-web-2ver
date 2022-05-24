@@ -2173,6 +2173,7 @@ section {
    }
    #Impacts .container .section-title h2 {
      font-size: 28px !important;
+     font-weight: 400;
    }
    .section-bg-four .container-fluid .row .content h3 {
      margin-left: -7%;
